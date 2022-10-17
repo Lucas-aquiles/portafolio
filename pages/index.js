@@ -5,7 +5,8 @@ import Navbar from '../components/navbar/navbar'
 import Topsection from '../components/topsection/topsection'
 import ArticleOne from '../components/articleone/articleone'
 import ArticleTwo from '../components/articletwo/articletwo'
-
+import ArticleThree from '../components/articlethree/articlethree'
+import Footer from '../components/footer/footer'
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
       <Navbar/>
       <ArticleOne/>
       <ArticleTwo/>
-
+      <ArticleThree/>
+      <Footer/>
 
 
 

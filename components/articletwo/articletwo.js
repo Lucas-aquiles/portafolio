@@ -30,7 +30,7 @@ export default function ArticleTwo() {
     // width={1000} // Desired size with correct aspect ratio
     alt="Your Name"    
     sizes="100vw"
-    fill="true"
+    
     // style={{
     //   objectFit: 'cover',
     // }}

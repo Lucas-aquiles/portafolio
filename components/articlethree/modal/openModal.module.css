@@ -1,0 +1,91 @@
+.containerOpenModal{
+    width: 100%;
+    height: 410vh;
+    position:absolute;
+    top:0;
+    left:0px;
+    background-color: rgba(207, 83, 83, 0.5);
+   
+    z-index: 9999;
+    
+  }
+
+.portafolioImg {
+    
+    animation-name: appear;
+    -webkit-animation-name: appear;	
+  
+    animation-duration: 1s;	
+    -webkit-animation-duration: 1s;
+  
+    animation-timing-function: ease-in-out;	
+    -webkit-animation-timing-function: ease-in-out;		
+  
+    visibility: visible !important;	
+}
+  
+  @keyframes appear {
+    0% {
+      transform: scale(0);
+      opacity: 0.0;		
+    }
+    60% {
+      transform: scale(1.05);	
+    }
+    80% {
+      transform: scale(0.95);
+      opacity: 1;	
+    }	
+
+
+    100% {
+      transform: scale(1);
+      opacity: 1;	
+    }		
+  }
+  
+  @-webkit-keyframes appear {
+    0% {
+      -webkit-transform: scale(0);
+      opacity: 0.0;		
+    }
+    60% {
+      -webkit-transform: scale(1.05);
+    }
+    80% {
+      -webkit-transform: scale(0.95);
+      opacity: 1;	
+    }	
+    100% {
+      -webkit-transform: scale(1);
+      opacity: 1;	
+    }		
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  
+  .modal{
+    margin: 0px auto;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(45, 7, 82);
+    animation-name: example;
+    animation-duration: 0.9s;
+    /* transition:     transform 8s; */
+    animation-fill-mode: forwards;
+    position: relative;
+    top:65%;
+
+  }
+  @keyframes example {
+    from {width: 500px}
+    to {width: 800px}
+
+  }  
+
+  .containerOpenModal{
+    width: 100%;
+  }
