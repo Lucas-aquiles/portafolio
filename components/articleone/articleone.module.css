@@ -1,0 +1,54 @@
+.container2{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    flex-direction: row;
+    border-radius:7% 93% 5% 95% / 87% 11% 89% 13%
+    ;
+    background-color: beige;
+    margin: 50px 50px ;
+    align-items: center;
+  
+    
+  }
+  
+  
+    .oval{
+     
+      width: 40%;
+      height: 300px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+        margin-left: 3rem;
+    }
+    
+  
+    
+  
+/*   
+   .oval .imgPersonal{
+    margin: 0px auto;
+  
+    border-radius: 150%;
+    width: 200px;
+    height: 200px;
+    filter: grayscale(100%);
+  
+   }
+    */
+    .imgPersonal{
+      /* object-fit:contain; */
+      width:200px;
+      height:200px;
+      border-radius: 150%;
+      background-color: red;
+    }
+  
+    .childText{
+      width: 50%;
+      font-family: 'Caveat', cursive,sans-serif;
+      font-weight: 800;
+      font-size: 1.4rem;
+  color: #358b47;
+    }

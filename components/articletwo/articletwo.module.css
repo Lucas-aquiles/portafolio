@@ -1,0 +1,28 @@
+.container3{
+    max-width: 100%;
+    height: auto;
+    
+
+  }
+  .part3{
+    /* background-image: url("../imag/wd1.svg"); */
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+  }
+  .text{
+    max-width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 250px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+  .imagen{
+    position: relative;
+    width: 50%;
+  }

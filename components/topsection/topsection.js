@@ -10,9 +10,8 @@ export default function Topsection() {
 
   return (
     <div className={styles.container}>
-        <h1 className={styles.text}>Programming is the paradise of the curious</h1>
+        {/* <h1 className={styles.text}>Programming is the paradise of the curious</h1> */}
         <Image
-        paddingLeft={100}
     src={profilePic} // Route of the image file
     // height={1000} // Desired size with correct aspect ratio
     // width={1000} // Desired size with correct aspect ratio
