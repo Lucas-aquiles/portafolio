@@ -1,11 +1,13 @@
 //rfc
 import { useState } from "react";
 import styles from "./navbar.module.css";
+import { Link} from 'react-scroll'
+
+// import { Link } from "react-scroll/modules";
 
 export default function Navbar() {
   const [first, setFirst] = useState(false);
 
-  console.log(first);
   function myFunction() {
     // menu.classList.toggle("change-menu");
     // x.classList.toggle("change");
@@ -31,11 +33,11 @@ export default function Navbar() {
        <div className={first === true ? styles.showMenu:styles.showMen}>
         <div className={styles.meWrap}>
           <div className={styles.me}>
+            
             <div>home</div>
-            <a className={styles.enlace} href="#portafolio">
-              {" "}
-              <p> portafolio</p>
-            </a>
+            <Link  scroll={true}  to="portafolio" smooth={true} offset={0} duration={500}>
+             <a>portafolio</a>
+           </Link>
 
             <div>contact</div>
           </div>

@@ -20,7 +20,7 @@ export default function Home() {
       <Navbar/>
       <ArticleOne/>
       <ArticleTwo/>
-      <ArticleThree/>
+      <ArticleThree />
       <Footer/>
 
 

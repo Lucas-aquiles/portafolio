@@ -9,8 +9,8 @@ export default function ArticleThree() {
 
 
   return (
-    <div  className={styles.container}>
-      <div id="portafolio" className={styles.containerP4}>
+    <div  id="portafolio" className={styles.container}>
+      <div  className={styles.containerP4}>
         <p> Mis trabajos </p>
 
         <div  className={styles.divFlex}>

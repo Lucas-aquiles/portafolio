@@ -2,6 +2,10 @@
     background-color: #CBEBB7;
     scroll-behavior: smooth;
     width: auto;
+    
+}
+#portafolio {
+  scroll-behavior: smooth;
 }
 .containerMenu{
     background-color:#70BB77;
