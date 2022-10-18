@@ -7,7 +7,7 @@ export default function Footer() {
 
   return (
 
-    <div className={styles.container}>
+    <div  id="contact" className={styles.container}>
         <div className={styles.part1}>
             <h1>hola</h1>
             </div>    

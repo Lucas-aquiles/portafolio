@@ -16,8 +16,8 @@ function stop (e){
 }
 
   return (
-    <div className={ state&&styles.containerOpenModal} onClick={closedModal}>
-        <div className={state&&styles.modal} onClick={stop}>  
+    <div className={ state?styles.containerOpenModal:"null"} onClick={closedModal}>
+        <div className={state?styles.modal:"null"} onClick={stop}>  
         <div className={state?styles.portafolioImg:styles.hidden}>
             
             

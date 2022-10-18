@@ -1,9 +1,9 @@
 //rfc
 import { useState } from "react";
 import styles from "./navbar.module.css";
-import { Link} from 'react-scroll'
+// import { Link} from 'react-scroll'
 
-// import { Link } from "react-scroll/modules";
+import { Link } from "react-scroll/modules";
 
 export default function Navbar() {
   const [first, setFirst] = useState(false);
@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className={styles.containerMenu}>
         <div
           className={
-            first === true ?  `${styles.menu} ${styles.change}`:styles.menu
+            first?( `${styles.menu} ${styles.change}`):styles.menu
           }
           onClick={myFunction}
         >
@@ -30,16 +30,24 @@ export default function Navbar() {
       </div>
       {/* <div class="menu-container" ></div> */}
 
-       <div className={first === true ? styles.showMenu:styles.showMen}>
+       <div className={first?styles.showMenu:styles.showMen}>
         <div className={styles.meWrap}>
           <div className={styles.me}>
-            
-            <div>home</div>
-            <Link  scroll={true}  to="portafolio" smooth={true} offset={0} duration={500}>
-             <a>portafolio</a>
+            <div> 
+            <Link activeClass="active"   to="home" spy={true} smooth={true} offset={0} duration={800}>
+            Home
            </Link>
-
-            <div>contact</div>
+           </div>
+           <div>  
+            <Link activeClass="active"   to="portafolio" spy={true} smooth={true} offset={0} duration={800}>
+             Portafolio
+           </Link>
+           </div>
+           <div>  
+            <Link activeClass="active"   to="contact" spy={true} smooth={true} offset={0} duration={800}>
+             Contact
+           </Link>
+           </div>
           </div>
         </div>
       </div> 

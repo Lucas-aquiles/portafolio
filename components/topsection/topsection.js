@@ -9,7 +9,7 @@ export default function Topsection() {
 
 
   return (
-    <div className={styles.container}>
+    <div   id="home" className={styles.container}>
         {/* <h1 className={styles.text}>Programming is the paradise of the curious</h1> */}
         <Image
     src={profilePic} // Route of the image file
