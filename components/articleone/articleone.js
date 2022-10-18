@@ -16,7 +16,7 @@ export default function ArticleOne() {
       </div>
       <div className={styles.childText}>
         <p>
-          Hey !! My name is Lucas. I'm a developer from Argentina, Mendoza
+          Hey !! My name is Lucas. Im a developer from Argentina, Mendoza
           province. I have been working on both client end and server side. I am
           interested in creative development , accessible to the user . And also
           in a design , code structure that allows scalability , readability. I
