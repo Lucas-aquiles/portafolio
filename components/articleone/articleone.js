@@ -23,7 +23,7 @@ export default function ArticleOne() {
           have the desire to do things that impact people's lives , improving it
           , helping , etc..
         </p>
-        <div className={styles.redes}>
+        <div >
           {/* <img   className='icon'  src= { require('../imag/instagram.svg').default }  />
   <img src= { require('../imag/linkedin-original.svg').default }  />
   <img src= { require('../imag/twitter.svg').default }  /> */}
