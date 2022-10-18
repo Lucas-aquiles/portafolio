@@ -166,6 +166,18 @@ export default function ArticleTwo() {
 
             <h4>Next</h4>
           </div>
+          <div className={styles.divIcons}>
+            <Image
+              src={
+                "https://cdn.icon-icons.com/icons2/2148/PNG/512/expo_icon_132404.png"
+              }
+              alt="next"
+              width="50"
+              height="50"
+            />
+
+            <h4>Expo </h4>
+          </div>
 
           <div  className={styles.divIcons}>
             <Image

@@ -3,9 +3,12 @@ import styles from "./modal.module.css";
 import profilePic from "../../../public/images/porta1.svg";
 import { useState } from "react";
 import OpenModal from "./openModal";
+import screenOne from "/public/images/app_countries.png"
+import screenTwo from "/public/images/shoesApp.png"
+import screenThree from "/public/images/donationApp.png"
+import screenFour from "/public/images/cakeApp.png"
 
-export default function Modal() {
-
+export default function Modal({git, deploy,title, description, addres}) {
 const [state, setState] = useState(false)
 
 function open (){
@@ -27,7 +30,7 @@ function open (){
 
 
 
-        <OpenModal state={state} setState={setState}/>
+        <OpenModal git={git} deploy={deploy} description={description} title={title}  addres={addres} state={state} setState={setState}/>
         
         
 
