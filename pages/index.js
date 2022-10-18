@@ -1,12 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Navbar from '../components/navbar/navbar'
-import Topsection from '../components/topsection/topsection'
-import ArticleOne from '../components/articleone/articleone'
-import ArticleTwo from '../components/articletwo/articletwo'
-import ArticleThree from '../components/articlethree/articlethree'
-import Footer from '../components/footer/footer'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import Navbar from "../components/navbar/navbar";
+import Topsection from "../components/topsection/topsection";
+import ArticleOne from "../components/articleone/articleone";
+import ArticleTwo from "../components/articletwo/articletwo";
+import ArticleThree from "../components/articlethree/articlethree";
+import Footer from "../components/footer/footer";
 
 export default function Home() {
   return (
@@ -16,25 +16,12 @@ export default function Home() {
         <meta name="description" content="portafolio  web portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Topsection/>
-      <Navbar/>
-      <ArticleOne/>
-      <ArticleTwo/>
+      <Topsection />
+      <Navbar />
+      <ArticleOne />
+      <ArticleTwo />
       <ArticleThree />
-      <Footer/>
-
-
-
-
-
-
-
-
-
-
-     
-
-   
+      <Footer />
     </div>
-  )
+  );
 }

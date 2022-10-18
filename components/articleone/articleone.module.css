@@ -1,54 +1,66 @@
-.container2{
-    display: flex;
+.container2 {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  flex-direction: row;
+  border-radius: 7% 93% 5% 95% / 87% 11% 89% 13%;
+  background-color: beige;
+  margin: 50px 50px;
+  align-items: center;
+  padding: 2rem;
+}
+/* mobile */
+@media screen  and (max-width: 550px){ 
+  .container2{
     max-width: 100%;
-    height: auto;
-    flex-direction: row;
-    border-radius:7% 93% 5% 95% / 87% 11% 89% 13%
-    ;
-    background-color: beige;
-    margin: 50px 50px ;
+    margin: 6px 6px;
+    flex-direction: column;
     align-items: center;
-  
-    
-  }
-  
-  
-    .oval{
-     
-      width: 40%;
-      height: 300px;
-      text-align: center;
-      display: flex;
-      align-items: center;
-        margin-left: 3rem;
     }
-    
-  
-    
-  
-/*   
-   .oval .imgPersonal{
-    margin: 0px auto;
-  
-    border-radius: 150%;
-    width: 200px;
-    height: 200px;
-    filter: grayscale(100%);
-  
-   }
-    */
-    .imgPersonal{
-      /* object-fit:contain; */
-      width:200px;
-      height:200px;
-      border-radius: 150%;
-      background-color: red;
-    }
-  
-    .childText{
-      width: 50%;
-      font-family: 'Caveat', cursive,sans-serif;
-      font-weight: 800;
-      font-size: 1.4rem;
+}
+
+
+.imgPersonal {
+  /* object-fit:contain; */
+  width: auto;
+  height: auto;
+  background-size: auto;
+  margin-left: 5rem;
+  margin:0px auto;
+}
+
+.childText {
+  width: 70%;
+  font-family: 'Poppins' , BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
   color: #358b47;
+  padding-left: 5rem;
+}
+@media screen  and (max-width: 550px){ 
+  .childText{
+    width: 100%;
+    font-family: 'Poppins' , BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: #358b47;
+    padding-left: 0rem;
+
     }
+}
+/* mobile */
+/* @media screen  and (max-width: 550px){ 
+  .me{
+    margin-top:4rem;
+    margin-right: -3rem;
+
+
+    }
+} */
+
+.borderCircle{
+  border-radius: 50%;
+  background-size: contain;
+  object-fit: cover;
+
+}

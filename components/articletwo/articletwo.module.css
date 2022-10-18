@@ -19,7 +19,7 @@ top:100px
     bottom: 130px;
     background-color: beige;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     top:-230px;
 
@@ -28,4 +28,9 @@ top:100px
   .imagen{
     position: relative;
     width: 40%;
+  }
+
+  .stack{
+    width: 60%;
+    border: solid;
   }

@@ -18,7 +18,17 @@
     right: 15px;
     top: 15px;
     z-index: 10;
+  
 }
+/* mobile */
+@media screen  and (max-width: 550px){ 
+  .containerMenu{
+    width: 80px;
+    height: 80px;
+    }
+}
+
+
 
 .menu{
     display: flex;
@@ -88,9 +98,19 @@
 .me {
 	height: 100%;
 	opacity: 0;
-	font-size: 0.65em;
 	color: #ffffff;
 	text-align: center;
+  margin-top:6rem;
+  margin-right: -8rem;
+}
+/* mobile */
+@media screen  and (max-width: 550px){ 
+  .me{
+    margin-top:4rem;
+    margin-right: -3rem;
+
+
+    }
 }
 
 
@@ -113,6 +133,14 @@
 	-webkit-animation: anim-jelly 0.8s linear forwards;
 	animation: anim-jelly 0.8s linear forwards;
 }
+/* mobile */
+@media screen  and (max-width: 550px){ 
+  .showMenu .meWrap{
+    width: 300px;
+    height: 300px;
+    }
+}
+
 
 .showMenu .me {
 	opacity: 1;
@@ -190,3 +218,19 @@
     96.666667% { -webkit-transform: matrix3d(1.00056, 0, 0, 0, 0, 1.00056, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00056, 0, 0, 0, 0, 1.00056, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
     100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);} 
   }
+
+
+  .text{
+    
+    font-family: 'Poppins',Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+/* mobile */
+@media screen  and (max-width: 550px){ 
+  .text{
+    font-size: 1.5rem;
+    }
+}
+  

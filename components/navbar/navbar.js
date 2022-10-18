@@ -34,18 +34,18 @@ export default function Navbar() {
         <div className={styles.meWrap}>
           <div className={styles.me}>
             <div> 
-            <Link activeClass="active"   to="home" spy={true} smooth={true} offset={0} duration={800}>
-            Home
+            <Link activeClass="active"   to="home" spy={true} smooth={true} offset={0} duration={300}>
+              <h2 className={styles.text}>Home </h2>
            </Link>
            </div>
            <div>  
-            <Link activeClass="active"   to="portafolio" spy={true} smooth={true} offset={0} duration={800}>
-             Portafolio
+            <Link activeClass="active"   to="portafolio" spy={true} smooth={true} offset={0} duration={300}>
+            <h2 className={styles.text}>Portafolio </h2> 
            </Link>
            </div>
            <div>  
-            <Link activeClass="active"   to="contact" spy={true} smooth={true} offset={0} duration={800}>
-             Contact
+            <Link activeClass="active"   to="contact" spy={true} smooth={true} offset={0} duration={300}>
+             <h2  className={styles.text}>  Contact</h2>
            </Link>
            </div>
           </div>
