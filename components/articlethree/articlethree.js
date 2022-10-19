@@ -58,7 +58,7 @@ export default function ArticleThree() {
   return (
     <div id="portafolio" className={styles.container}>
       <div className={styles.containerP4}>
-        <h2> My Projects </h2>
+        <h2 className={styles.textTitle}> My Projects </h2>
 
         <div className={styles.divFlex}>
           {data &&

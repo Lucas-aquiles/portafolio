@@ -19,7 +19,7 @@ export default function Footer() {
               width="50"
               height="50"
             />
-            <h4>Linkedin</h4>
+            <h4 className={styles.text}>Linkedin</h4>
           </div>
           </a>
               </Link>
@@ -34,7 +34,7 @@ export default function Footer() {
               width="50"
               height="50"
             />
-            <h4>Git Hub</h4>
+            <h4  className={styles.text}>Git Hub</h4>
           </div>
           </a>
               </Link>
@@ -48,7 +48,7 @@ export default function Footer() {
               width="50"
               height="50"
             />
-            <h4>Twitter</h4>
+            <h4 className={styles.text} >Twitter</h4>
           </div>
           </a>
               </Link>
@@ -60,7 +60,7 @@ export default function Footer() {
               width="50"
               height="50"
             />
-            <h4>Curriculum</h4>
+            <h4 className={styles.text} >Curriculum</h4>
           </div>
           </div>
       </div>

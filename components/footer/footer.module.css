@@ -32,13 +32,22 @@
     margin-left: 1.5rem;
     display: grid;
     grid-template-columns: repeat(2, 100px);
+    grid-row-gap: 10px;
+
   }
 }
 .childrenDiv {
   margin: 2rem;
+  cursor: pointer;
 }
 @media screen and (max-width: 550px) {
   .childrenDiv {
     margin: 0rem;
   }
+}
+
+.text{
+  color: #2c753c;
+  position: relative;
+  top:-1rem
 }
