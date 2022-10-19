@@ -47,6 +47,12 @@
   margin: 2rem;
   cursor: pointer;
   text-align: center;
+  transition: 0.4s;
+
+}
+.childrenDiv:hover{
+  opacity: 0.5;
+  transform: scale(1.1);
 }
 @media screen and (max-width: 550px) {
   .childrenDiv {
