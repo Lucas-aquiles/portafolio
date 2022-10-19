@@ -4,6 +4,13 @@
   flex-direction: row;
   align-items: center;
 }
+/* mobile */
+@media screen and (max-width: 550px) {
+  .container {
+    margin-right: 1rem;
+  }
+}
+
 .part1 {
   width: 60%;
 }
@@ -29,7 +36,7 @@
 }
 @media screen and (max-width: 550px) {
   .divFlex {
-    margin-left: 1.5rem;
+    margin-left: 1.0rem;
     display: grid;
     grid-template-columns: repeat(2, 100px);
     grid-row-gap: 10px;
@@ -39,10 +46,12 @@
 .childrenDiv {
   margin: 2rem;
   cursor: pointer;
+  text-align: center;
 }
 @media screen and (max-width: 550px) {
   .childrenDiv {
     margin: 0rem;
+    margin-left: -0.0rem;
   }
 }
 
