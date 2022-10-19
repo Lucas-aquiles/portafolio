@@ -3,40 +3,36 @@ import styles from "./modal.module.css";
 import profilePic from "../../../public/images/porta1.svg";
 import { useState } from "react";
 import OpenModal from "./openModal";
-import screenOne from "/public/images/app_countries.png"
-import screenTwo from "/public/images/shoesApp.png"
-import screenThree from "/public/images/donationApp.png"
-import screenFour from "/public/images/cakeApp.png"
 
-export default function Modal({git, deploy,title, description, addres}) {
-const [state, setState] = useState(false)
+export default function Modal({ git, deploy, title, description, addres }) {
+  const [state, setState] = useState(false);
 
-function open (){
-    setState(!state)
-}
+  function open() {
+    setState(!state);
+  }
 
   return (
     <div className={styles.container}>
-    <div className={styles.portafolio} onClick={open}>
-            <Image
-              src={profilePic} // Route of the image file
-              // height={1000} // Desired size with correct aspect ratio
-              // width={1000} // Desired size with correct aspect ratio
-              alt="Your Name"
-              width={400}
-              height={300}
-            />
-          </div>
+      <div className={styles.portafolio} onClick={open}>
+        <Image
+          src={profilePic} // Route of the image file
+          // height={1000} // Desired size with correct aspect ratio
+          // width={1000} // Desired size with correct aspect ratio
+          alt="Your Name"
+          width={400}
+          height={300}
+        />
+      </div>
 
-
-
-        <OpenModal git={git} deploy={deploy} description={description} title={title}  addres={addres} state={state} setState={setState}/>
-        
-        
-
-       
-
-    
-          </div>
-  )
+      <OpenModal
+        git={git}
+        deploy={deploy}
+        description={description}
+        title={title}
+        addres={addres}
+        state={state}
+        setState={setState}
+      />
+    </div>
+  );
 }

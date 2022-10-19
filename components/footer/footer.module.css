@@ -6,3 +6,16 @@
 .part1{
     width: 60%;
 }
+.part1 > h2{
+    color:#358b47;
+    margin-left: 5rem;
+}
+
+/* mobile */
+@media screen  and (max-width: 550px){ 
+    .part1 >h2{
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+  }
+  

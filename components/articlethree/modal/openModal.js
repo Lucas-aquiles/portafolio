@@ -2,9 +2,7 @@ import Image from "next/image";
 import styles from "./openModal.module.css";
 import profilePic from "../../../public/images/team.svg";
 import { useState } from "react";
-import Link from 'next/link'
-
-
+import Link from "next/link";
 
 export default function OpenModal({
   git,
@@ -42,14 +40,22 @@ export default function OpenModal({
           <div className={styles.parttwo}>
             <h2> {title}</h2>
             <p> {description}</p>
-            <Link href={deploy}>  
-          <a    target="_blank" >Link Deploy</a>
-          </Link>
-          <div> 
-          <Link href={git}>  
-          <a    target="_blank" >Git gub</a>
-          </Link>
-          </div>
+            <div className={styles.divText}>
+              {" "}
+              <Link href={deploy}>
+                <a className={styles.enlace} target="_blank">
+                  Link Deploy
+                </a>
+              </Link>
+            </div>
+
+            <div className={styles.divText}>
+              <Link href={git}>
+                <a className={styles.enlace} target="_blank">
+                  Git gub
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

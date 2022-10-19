@@ -10,6 +10,7 @@
 @media screen and (max-width: 550px) {
   .containerOpenModal {
     top: 0;
+    height: 280vh;
   }
 }
 
@@ -71,7 +72,6 @@
 
 @media screen and (max-width: 550px) {
   .portafolioImg {
-    
     flex-direction: column;
   }
 }
@@ -115,7 +115,7 @@
 @media screen and (max-width: 550px) {
   .modal {
     width: 100%;
-    top: 50%;
+    top: 80%;
     height: 400px;
     align-items: flex-start;
   }
@@ -133,8 +133,28 @@
   }
 }
 .parttwo > h2 {
-  color: red;
+  color: rgb(100, 99, 99);
 }
 .parttwo > p {
-  color: red;
+  color: rgb(100, 99, 99);
+}
+
+.parttwo > a {
+  color: rgb(100, 99, 99);
+}
+
+.enlace {
+  color: white;
+}
+.divText {
+  width: 7rem;
+  position: relative;
+  border-radius: 8px;
+  margin-top: 1rem;
+  text-align: center;
+  background-color: rgb(100, 99, 99);
+  cursor: pointer;
+}
+.divText:hover {
+  background-color: rgb(103, 161, 108);
 }
