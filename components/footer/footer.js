@@ -53,7 +53,10 @@ export default function Footer() {
           </a>
               </Link>
 
+              <Link href="/about">
+              <a >
           <div   className={styles.childrenDiv}>
+          
             <Image
               src={"https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-curriculum-leadership-justicon-lineal-color-justicon.png"}
               alt="html"
@@ -62,6 +65,9 @@ export default function Footer() {
             />
             <h4 className={styles.text} >Curriculum</h4>
           </div>
+          </a>
+          </Link>
+
           </div>
       </div>
       <div   className={styles.childrenDiv}>  
