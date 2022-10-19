@@ -1,7 +1,5 @@
 import Image from "next/image";
 import styles from "./openModal.module.css";
-import profilePic from "../../../public/images/team.svg";
-import { useState } from "react";
 import Link from "next/link";
 
 export default function OpenModal({
