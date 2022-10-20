@@ -11,3 +11,88 @@ padding: 0;
 .text{
     font-family: "Poppins";
 }
+
+.smokeContainer{
+    position:absolute;
+    top: 47.5vh;
+    right: 27.5vw;
+}
+@media screen  and (max-width: 550px){ 
+    .smokeContainer{
+        top: 15.3vh;
+        right: 6.1vw;
+    }
+  }
+
+
+.smoke1 , .smoke2{
+    animation-fill-mode: forwards;
+    animation-name: smoke;
+    animation-duration: 6s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    position: relative;
+    top:50px;
+    /* background-color: gainsboro; */
+  }
+  .smoke2{
+    top:10px;
+    animation-delay: 3s;
+  }
+
+  @keyframes smoke {
+    0% {
+
+      transform:  scale(0) translate(0px, 0px) ;
+      opacity: 1;		
+    }
+    25% {
+      transform: scale(0.3) translate(0px, -10px) ;	
+    }
+    50% {
+      transform:  scale(0.5) translate(0px, -20px) ;
+      opacity: 1;	
+    }	
+
+    70% {
+      transform: scale(0.85) translate(0px, -30px) ;	
+    }
+    85% {
+      transform:  scale(1.2) translate(0px, -40px) ;
+      opacity: 1;	
+    }	
+
+    100% {
+      transform:   scale(1.9) translate(0px, -50px) ;
+      opacity: 0;	
+    }		
+  }
+
+
+  @-webkit-keyframes smoke{
+    0% {
+
+      -webkit-transform:  scale(0) translate(0px, 0px) ;
+      opacity: 1;		
+    }
+    25% {
+      -webkit-transform: scale(0.3) translate(0px, -10px) ;	
+    }
+    50% {
+      -webkit-transform:  scale(0.5) translate(0px, -20px) ;
+      opacity: 1;	
+    }	
+
+    70% {
+      -webkit-transform: scale(0.55) translate(0px, -30px) ;	
+    }
+    85% {
+      -webkit-transform:  scale(1.2) translate(0px, -40px) ;
+      opacity: 1;	
+    }	
+
+    100% {
+      -webkit-transform:   scale(1.9) translate(0px, -50px) ;
+      opacity: 0;	
+    }	
+  }
