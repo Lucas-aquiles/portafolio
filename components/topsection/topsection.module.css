@@ -1,11 +1,14 @@
 .container{
     max-width: 100%;
     padding-left: 15rem;
+    padding-top: 2rem;
     
 }
 @media screen  and (max-width: 550px){ 
     .container{
 padding: 0;
+padding-top: 1rem;
+
     }
   }
 .text{
@@ -14,16 +17,15 @@ padding: 0;
 
 .smokeContainer{
     position:absolute;
-    top: 47.5vh;
-    right: 27.5vw;
+    top: 51.6vh;
+    right: 27.6vw;
 }
 @media screen  and (max-width: 550px){ 
     .smokeContainer{
-        top: 15.3vh;
+        top: 16.8vh;
         right: 6.1vw;
     }
   }
-
 
 .smoke1 , .smoke2{
     animation-fill-mode: forwards;

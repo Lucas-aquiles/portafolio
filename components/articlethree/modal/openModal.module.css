@@ -1,6 +1,6 @@
 .containerOpenModal {
   width: 100%;
-  height: 410vh;
+  height: 420vh;
   position: absolute;
   top: 0;
   left: 0px;
@@ -10,7 +10,7 @@
 @media screen and (max-width: 550px) {
   .containerOpenModal {
     top: 0;
-    height: 280vh;
+    height: 300vh;
   }
 }
 
@@ -111,11 +111,11 @@
 .containerOpenModal {
   width: 100%;
 }
-
+/* move screen opacity of the modal */
 @media screen and (max-width: 550px) {
   .modal {
     width: 100%;
-    top: 80%;
+    top: 75%;
     height: 400px;
     align-items: flex-start;
   }
