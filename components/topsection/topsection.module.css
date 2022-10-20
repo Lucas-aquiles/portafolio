@@ -1,8 +1,8 @@
 .container{
     max-width: 100%;
-    padding-left: 15rem;
-    padding-top: 2rem;
-    
+    position: relative;
+    margin-top: 1rem;
+
 }
 @media screen  and (max-width: 550px){ 
     .container{
@@ -16,14 +16,27 @@ padding-top: 1rem;
 }
 
 .smokeContainer{
-    position:absolute;
-    top: 51.6vh;
-    right: 27.6vw;
+position: absolute; 
+bottom: 30vh; 
+right: 4.7vw;
+
 }
+@media screen  and (max-width: 1050px){ 
+  .smokeContainer{
+      top: 44vh;
+      right: 4.5vw;
+  }
+}
+
 @media screen  and (max-width: 550px){ 
     .smokeContainer{
-        top: 16.8vh;
-        right: 6.1vw;
+        top: 15vh;
+        right: 4.8vw;
+    }
+  }
+  @media screen  and (max-width: 300px){ 
+    .smokeContainer{
+       display: none;
     }
   }
 
@@ -35,6 +48,7 @@ padding-top: 1rem;
     animation-iteration-count:infinite;
     position: relative;
     top:50px;
+    opacity: 0;
     /* background-color: gainsboro; */
   }
   .smoke2{
@@ -97,4 +111,38 @@ padding-top: 1rem;
       -webkit-transform:   scale(1.9) translate(0px, -50px) ;
       opacity: 0;	
     }	
+  }
+
+  .imageWrapper{
+    width: 60%;
+    height: 90vh;
+    margin: 0px auto;
+    position: relative;
+
+  }
+  @media screen  and (max-width: 550px){ 
+    .imageWrapper{
+      width: 90%;
+      height: 35vh;
+
+    }
+  }
+  .divClon{
+    width: 60%;
+    height: 90vh;
+    top:0px;
+    margin-left: 19.7vw;
+    /* margin-right: 15vw; */
+    position: absolute;
+  }
+  @media screen  and (max-width: 550px){ 
+    .divClon{
+      width: 90%;
+      height: 35vh;
+      margin-left: 4.7vw;
+      top:1.7vh;
+
+
+
+    }
   }

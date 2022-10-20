@@ -5,7 +5,7 @@
 }
 @media screen and (max-width: 550px) {
   .container {
-    margin-top:-25.5rem;
+    margin-top:-27.4rem;
   }
 }
 
@@ -79,7 +79,16 @@
 }
 @media screen and (max-width: 550px) {
   .part4 {
-    top: -4rem;
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+
+
+  }
+}
+@media screen and (max-width: 1050px) {
+  .part4 {
+    top: -7rem;
 
   }
 }
