@@ -50,6 +50,23 @@
   transition: 0.4s;
 
 }
+.childrenDiv1{
+  margin: 2rem;
+  text-align: center;
+  width: 550px;  
+  height: 400px;
+  position: relative;
+
+}
+@media screen and (max-width: 550px) {
+  .childrenDiv1 {
+    margin: 0rem;
+    width: 350px;   
+    height: 250px;
+    padding-top: 4rem;
+ 
+  }
+}
 .childrenDiv:hover{
   opacity: 0.5;
   transform: scale(1.1);

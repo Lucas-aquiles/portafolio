@@ -70,13 +70,13 @@ export default function Footer() {
 
           </div>
       </div>
-      <div   className={styles.childrenDiv}>  
+      <div   className={styles.childrenDiv1}>  
       <Image
         src={profilePic} // Route of the image file
-        height={300} // Desired size with correct aspect ratio
-        width={300} // Desired size with correct aspect ratio
         alt="Your Name"
-      />
+        layout="responsive"  
+        objectFit="cover"
+        />
       </div>
     </div>
   );
