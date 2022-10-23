@@ -50,7 +50,7 @@ export default function ArticleThree() {
       git: "https://github.com/Lucas-aquiles/demo-cakes-client",
       deploy: "https://tortas-artesanales.vercel.app/",
       title: "Cakes App ",
-      description: "Develops view-practice. Front end design",
+      description: "Develop view-practice. Front end design",
       addres: screenFour,
     },
   ];

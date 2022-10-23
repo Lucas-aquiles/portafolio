@@ -10,7 +10,7 @@ export default function ArticleTwo() {
         <Image
           src={profilePic} // Route of the image file
           // height={1000} // Desired size with correct aspect ratio
-          // width={1000} // Desired size with correct aspect ratio
+          // width={1000} // Desired size with correct aspect ratio 
           alt="Your Name"
         />
       </div>

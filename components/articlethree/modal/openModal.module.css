@@ -1,24 +1,24 @@
 .containerOpenModal {
   width: 100%;
-  height: 420vh;
+  height: 440vh;
   position: absolute;
   top: 0;
   left: 0px;
   background-color: rgba(255, 255, 255, 0.5);
   z-index: 9999;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
   .containerOpenModal {
     top: 0;
     height: 310vh;
   }
 }
-@media screen  and (max-width: 900px){ 
+/* @media screen  and (max-width: 900px){ 
   .containerOpenModal{
     top: 0;
     height: 710vh;
   }
-}
+} */
 
 .portafolioImg {
   width: 100%;
@@ -129,7 +129,7 @@
 @media screen  and (max-width: 900px){ 
   .modal{
     width: 100%;
-    top: 60%;
+    top: 70%;
     height: 400px;
   }
 }
