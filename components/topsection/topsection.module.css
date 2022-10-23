@@ -21,13 +21,19 @@ bottom: 30vh;
 right: 4.7vw;
 
 }
-@media screen  and (max-width: 1050px){ 
+
+@media screen  and (max-width: 900px){ 
   .smokeContainer{
-      top: 44vh;
-      right: 4.5vw;
+      top: 41vh;
+      right: 7.5vw;
   }
 }
-
+@media screen  and (max-width: 850px){ 
+  .smokeContainer{
+      top: 41vh;
+      right: 4.6vw;
+  }
+}
 @media screen  and (max-width: 550px){ 
     .smokeContainer{
         top: 15vh;

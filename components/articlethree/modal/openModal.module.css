@@ -13,6 +13,12 @@
     height: 310vh;
   }
 }
+@media screen  and (max-width: 900px){ 
+  .containerOpenModal{
+    top: 0;
+    height: 710vh;
+  }
+}
 
 .portafolioImg {
   width: 100%;
@@ -118,6 +124,13 @@
     top: 72%;
     height: 400px;
     align-items: flex-start;
+  }
+}
+@media screen  and (max-width: 900px){ 
+  .modal{
+    width: 100%;
+    top: 60%;
+    height: 400px;
   }
 }
 
