@@ -9,6 +9,8 @@
   }
 }
 
+
+
 .containerP4 {
   max-width: 100%;
   height: auto;
@@ -90,6 +92,11 @@
   .part4 {
     top: -7rem;
 
+  }
+}
+@media screen and (max-width: 310px) {
+  .part4 {
+    position: relative;
   }
 }
 
