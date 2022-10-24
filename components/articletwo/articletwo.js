@@ -181,12 +181,12 @@ export default function ArticleTwo() {
 
           <div  className={styles.divIcons}>
             <Image
-              src={"https://cdn-icons-png.flaticon.com/512/3813/3813691.png"}
-              alt="material_design"
+              src={"https://img.icons8.com/color/344/tailwind_css.png"}
+              alt="tailwinds"
               width="50"
               height="50"
             />
-            <h4>Material design</h4>
+            <h4>Tailwinds</h4>
           </div>
 
           <div className={styles.divIcons}>

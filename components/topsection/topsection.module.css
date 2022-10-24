@@ -24,18 +24,16 @@ right: 4.7vw;
 
 @media screen  and (max-width: 900px){ 
   .smokeContainer{
-      top: 41vh;
-      right: 7.5vw;
-  }
+    visibility: hidden  }
 }
 @media screen  and (max-width: 850px){ 
   .smokeContainer{
-      top: 41vh;
-      right: 4.6vw;
+    visibility: hidden
   }
 }
 @media screen  and (max-width: 550px){ 
     .smokeContainer{
+      visibility: visible;
         top: 15vh;
         right: 4.8vw;
     }
