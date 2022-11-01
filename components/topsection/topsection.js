@@ -17,7 +17,7 @@ export default function Topsection() {
           alt="Your Name"
         />
       </div>
-      <div className={styles.divClon}>   
+      {/* <div className={styles.divClon}>   
       <div className={styles.smokeContainer}>
         <div className={styles.smoke1}>
           <Image
@@ -36,7 +36,7 @@ export default function Topsection() {
           />
         </div>
       </div>
-      </div>
+      </div> */}
     </div>
   );
 }

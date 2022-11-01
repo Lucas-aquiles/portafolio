@@ -120,12 +120,55 @@
 }
 
 .textTitle{
-  padding-top: 1rem;
+  color:#358b47;
+  margin-left: 1.5rem;
 
 }
 @media screen and (max-width: 550px) {
   .textTitle {
     margin-left: -3.5rem;
+
+  }
+}
+
+.heartimg{
+ display: flex;
+  margin-left: 2rem;
+  color:#358b47;
+  animation: smoke1 1.5s  infinite;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+@keyframes smoke1 {
+  0% {
+		transform: scale(0.75);
+	}
+	50% {
+		transform: scale(1);
+	}	
+	100% {
+		transform: scale(0.75);
+	}			
+}
+
+
+
+.divFlextwo{
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  color:#358b47;
+  padding-top: 1rem;
+  align-items: center;
+  text-align: center;
+
+}
+@media screen and (max-width: 550px) {
+  .divFlextwo {
+    margin-left: 5.5rem;
 
   }
 }

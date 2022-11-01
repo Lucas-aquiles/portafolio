@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./articlethree.module.css";
 import profilePic from "../../public/images/waveP.svg";
+import heartPic from "../../public/images/heart.svg"
 import Modal from "./modal/modal";
 import { useState } from "react";
 import screenOne from "../../public/images/app_countries.png";
@@ -43,14 +44,14 @@ export default function ArticleThree() {
       git: "https://github.com/Lucas-aquiles/Donation-App",
       deploy: "https://donation-app-one.vercel.app/",
       title: "App Donations",
-      description: "Practice firebase crud-api-rest",
+      description: "Practice firebase crud-api-rest. React js and Styled-Component",
       addres: screenThree,
     },
     {
       git: "https://github.com/Lucas-aquiles/demo-cakes-client",
       deploy: "https://tortas-artesanales.vercel.app/",
       title: "Cakes App ",
-      description: "Develop view-practice. Front end design",
+      description: "Develop view-practice. Design Front End, Tailwind and React js",
       addres: screenFour,
     },
   ];
@@ -58,7 +59,17 @@ export default function ArticleThree() {
   return (
     <div id="portafolio" className={styles.container}>
       <div className={styles.containerP4}>
-        <h2 className={styles.textTitle}> My Projects </h2>
+        <div className={styles.divFlextwo}>  
+        <h2 className={styles.textTitle}> My Projects </h2> 
+        <div className={styles.heartimg}>
+        <Image
+          src={heartPic} // Route of the image file
+          // height={1000} // Desired size with correct aspect ratio
+          // width={1000} // Desired size with correct aspect ratio
+          alt="Your Name"
+        />
+      </div>
+      </div>
 
         <div className={styles.divFlex}>
           {data &&
