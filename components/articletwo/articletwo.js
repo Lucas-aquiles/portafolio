@@ -9,12 +9,13 @@ import 'aos/dist/aos.css';
 
 export default function ArticleTwo() {
   useEffect(() => {
-    AOS.init({delay: 500,  duration: 600 });
+    AOS.init();
     
   }, [])
 
   return (
-    <div data-aos="fade-right">  
+    <div   data-aos="fade-right" data-aos-offset="300"
+    data-aos-easing="ease-in-sine">  
     <div className={styles.container3}  >
       <div className={styles.part3}>
         <Image

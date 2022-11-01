@@ -9,12 +9,13 @@ import 'aos/dist/aos.css';
 
 export default function ArticleOne() {
   useEffect(() => {
-    AOS.init({delay: 500, duration:600});
+    AOS.init();
     
   }, [])
 
   return (
-    <div className={styles.container2}        data-aos="fade-right" >
+    <div className={styles.container2}        data-aos="fade-right" data-aos-offset="300"
+    data-aos-easing="ease-in-sine" >
         <div className={styles.imgPersonal}>
           <Image
             src={profilePic} // Route of the image file
