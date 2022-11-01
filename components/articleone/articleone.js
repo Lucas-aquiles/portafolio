@@ -1,10 +1,20 @@
 import Image from "next/image";
+import React,{useEffect} from "react";
+
 import profilePic from "../../public/images/lucas.jpg";
 import styles from "./articleone.module.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 export default function ArticleOne() {
+  useEffect(() => {
+    AOS.init({delay: 500, duration:600});
+    
+  }, [])
+
   return (
-    <div className={styles.container2}>
+    <div className={styles.container2}        data-aos="fade-right" >
         <div className={styles.imgPersonal}>
           <Image
             src={profilePic} // Route of the image file

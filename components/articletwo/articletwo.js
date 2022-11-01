@@ -2,10 +2,20 @@ import Image from "next/image";
 import styles from "./articletwo.module.css";
 import profilePic from "../../public/images/waveT.svg";
 import profileTeam from "../../public/images/team.svg";
+import React,{useEffect} from "react";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function ArticleTwo() {
+  useEffect(() => {
+    AOS.init({delay: 500,  duration: 600 });
+    
+  }, [])
+
   return (
-    <div className={styles.container3}>
+    <div data-aos="fade-right">  
+    <div className={styles.container3}  >
       <div className={styles.part3}>
         <Image
           src={profilePic} // Route of the image file
@@ -226,6 +236,7 @@ export default function ArticleTwo() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

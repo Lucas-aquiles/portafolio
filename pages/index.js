@@ -7,6 +7,7 @@ import ArticleTwo from "../components/articletwo/articletwo";
 import ArticleThree from "../components/articlethree/articlethree";
 import Footer from "../components/footer/footer";
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -18,8 +19,8 @@ export default function Home() {
       <Topsection />
       <Navbar />
       <ArticleOne />
-      <ArticleTwo />
-      <ArticleThree />
+     <ArticleTwo />
+       <ArticleThree />
       <Footer />
     </div>
   );

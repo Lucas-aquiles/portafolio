@@ -8,6 +8,9 @@ import screenOne from "../../public/images/app_countries.png";
 import screenTwo from "../../public/images/shoesApp.png";
 import screenThree from "../../public/images/donationApp.png";
 import screenFour from "../../public/images/cakeApp.png";
+import React,{useEffect} from "react";
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 //https://donation-app-one.vercel.app/
 //https://github.com/Lucas-aquiles/Donation-App
@@ -23,6 +26,10 @@ import screenFour from "../../public/images/cakeApp.png";
 
 export default function ArticleThree() {
   const [state, setState] = useState(false);
+
+  // useEffect(() => {
+  //   AOS.init({delay: 500, duration:600});
+  // }, [])
 
   const data = [
     {
@@ -57,7 +64,7 @@ export default function ArticleThree() {
   ];
 
   return (
-    <div id="portafolio" className={styles.container}>
+    <div id="portafolio" className={styles.container} >
       <div className={styles.containerP4}>
         <div className={styles.divFlextwo}>  
         <h2 className={styles.textTitle}> My Projects </h2> 
