@@ -1,6 +1,7 @@
 .container {
-  margin: 0;
   scroll-behavior: smooth;
+  max-width: 1400px;
+  margin: 0px auto;
 
 }
 
