@@ -8,6 +8,7 @@ import screenOne from "../../public/images/app_countries.png";
 import screenTwo from "../../public/images/shoesApp.png";
 import screenThree from "../../public/images/donationApp.png";
 import screenFour from "../../public/images/cakeApp.png";
+import screenFive from "../../public/images/expocli.png"
 import React,{useEffect} from "react";
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
@@ -61,6 +62,13 @@ export default function ArticleThree() {
       description: "Develop view-practice. Design Front End, Tailwind and React js",
       addres: screenFour,
     },
+    {
+      git:"https://github.com/Lucas-aquiles/Recetario",
+      deploy:"https://github.com/Lucas-aquiles/Recetario",
+      title:"Recetas",
+      description: "Expo cli, mobile. Deploy in file apk ",
+      addres: screenFive
+    }
   ];
 
   return (
