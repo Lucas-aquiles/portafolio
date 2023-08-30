@@ -45,7 +45,7 @@ export default function Navbar() {
            </div>
            <div>  
             <Link activeClass="active"   to="contact" spy={true} smooth={true} offset={0} duration={300}>
-             <h2  className={styles.text}>  Contact</h2>
+             <h2  className={styles.text}>  Contacto</h2>
            </Link>
            </div>
           </div>
