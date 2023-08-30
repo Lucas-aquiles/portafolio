@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div id="contact" className={styles.container}>
       <div className={styles.part1}>
-        <h2>Contact me</h2>
+        <h2>Contacto </h2>
         <div className={styles.divFlex}>  
         <Link href="https://www.linkedin.com/in/manuel-lucas-echegaray/">
                 <a target="_blank">
@@ -52,10 +52,10 @@ export default function Footer() {
           </div>
           </a>
               </Link>
-
+{/* 
               <Link href="/about">
-              <a >
-          <div   className={styles.childrenDiv}>
+              <a > */}
+          {/* <div   className={styles.childrenDiv}>
           
             <Image
               src={"https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-curriculum-leadership-justicon-lineal-color-justicon.png"}
@@ -64,9 +64,9 @@ export default function Footer() {
               height="50"
             />
             <h4 className={styles.text} >Curriculum</h4>
-          </div>
-          </a>
-          </Link>
+          </div> */}
+          {/* </a>
+          </Link> */}
 
           </div>
       </div>

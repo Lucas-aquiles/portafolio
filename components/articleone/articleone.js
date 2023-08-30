@@ -29,10 +29,10 @@ export default function ArticleOne() {
       </div>
       <div className={styles.childText}>
         <p>
-          Hey !! My name is Lucas. I&apos;m a developer from Argentina, Mendoza
-          province. I have been working on both client end and server side. I am
-          very motivated to work in this ever-evolving industry, and I am eager
-          to learn and grow as a programmer.
+        ¡Hola! Mi nombre es Lucas. Soy un desarrollador de Argentina, Mendoza
+          provincia de Mendoza. Tengo experiencia en Front End como Back End . Estoy
+          muy motivado para trabajar en esta industria IT, y estoy ansioso
+          de aprender y crecer como programador.
         </p>
         <div>
           {/* <img   className='icon'  src= { require('../imag/instagram.svg').default }  />

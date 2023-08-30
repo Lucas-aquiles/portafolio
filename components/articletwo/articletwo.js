@@ -37,7 +37,7 @@ export default function ArticleTwo() {
           />
         </div>
         <div className={styles.stack}>
-          <h2>Tech Stack</h2>
+          <h2> Stack</h2>
           <div className={styles.divIcons}>
             <Image
               src={"https://cdn-icons-png.flaticon.com/512/5968/5968292.png"}

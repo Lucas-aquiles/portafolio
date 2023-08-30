@@ -35,7 +35,7 @@ export default function Navbar() {
           <div className={styles.me}>
             <div> 
             <Link activeClass="active"   to="home" spy={true} smooth={true} offset={0} duration={300}>
-              <h2 className={styles.text}>Home </h2>
+              <h2 className={styles.text}>Inicio </h2>
            </Link>
            </div>
            <div>  

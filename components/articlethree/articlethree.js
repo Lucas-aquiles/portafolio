@@ -44,7 +44,7 @@ export default function ArticleThree() {
       git: "https://github.com/fedesiri/HenryShoesPF",
       deploy: "https://client-henryshoes.vercel.app/",
       title: "Eccomerce Shoes",
-      description: "Final group project. Rest Api",
+      description: "Proyecto final de grupo. Rest Api",
       addres: screenTwo,
     },
 
@@ -52,14 +52,14 @@ export default function ArticleThree() {
       git: "https://github.com/Lucas-aquiles/Donation-App",
       deploy: "https://donation-app-one.vercel.app/",
       title: "App Donations",
-      description: "Practice firebase crud-api-rest. React js and Styled-Component",
+      description: "Practica firebase crud-api-rest. React js y Styled-Component",
       addres: screenThree,
     },
     {
       git: "https://github.com/Lucas-aquiles/demo-cakes-client",
       deploy: "https://tortas-artesanales.vercel.app/",
       title: "Cakes App ",
-      description: "Develop view-practice. Design Front End, Tailwind and React js",
+      description: "Desarrollar la vista-práctica. Diseño Front End, Tailwind y React js",
       addres: screenFour,
     },
     {
@@ -75,7 +75,7 @@ export default function ArticleThree() {
     <div id="portafolio" className={styles.container} >
       <div className={styles.containerP4}>
         <div className={styles.divFlextwo}>  
-        <h2 className={styles.textTitle}> My Projects </h2> 
+        <h2 className={styles.textTitle}> Mis Proyectos </h2> 
         <div className={styles.heartimg}>
         <Image
           src={heartPic} // Route of the image file
