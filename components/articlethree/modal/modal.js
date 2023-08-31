@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./modal.module.css";
-import profilePic from "../../../public/images/porta1.svg";
+import profilePic from "../../../public/images/lucas.png";
 import { useState } from "react";
 import OpenModal from "./openModal";
 
@@ -15,12 +15,12 @@ export default function Modal({ git, deploy, title, description, addres }) {
     <div className={styles.container}>
       <div className={styles.portafolio} onClick={open}>
         <Image
-          src={profilePic} // Route of the image file
+          src={addres} // Route of the image file
           // height={1000} // Desired size with correct aspect ratio
           // width={1000} // Desired size with correct aspect ratio
           alt="Your Name"
-          width={400}
-          height={300}
+          width={300}
+          height={200}
         />
       </div>
 

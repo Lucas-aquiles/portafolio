@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./topsection.module.css";
 import profilePic from "../../public/images/20.svg";
-import smoke from "../../public/images/smoke.svg";
+import arrow from "../../public/images/icons8-arrow-100.png";
 
 export default function Topsection() {
   return (
@@ -37,6 +37,14 @@ export default function Topsection() {
         </div>
       </div>
       </div> */}
+      <div  className={styles.divArrow} >
+            <Image
+              src={arrow}
+              alt="html"
+              width="50"
+              height="50"
+            />
+          </div>
     </div>
   );
 }

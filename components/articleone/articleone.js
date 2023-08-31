@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
 
-import profilePic from "../../public/images/lucas.jpg";
+import profilePic from "../../public/images/lucas.png";
 import styles from "./articleone.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,10 +29,10 @@ export default function ArticleOne() {
       </div>
       <div className={styles.childText}>
         <p>
-        ¡Hola! Mi nombre es Lucas. Soy un desarrollador de Argentina, Mendoza
-          provincia de Mendoza. Tengo experiencia en Front End como Back End . Estoy
-          muy motivado para trabajar en esta industria IT, y estoy ansioso
-          de aprender y crecer como programador.
+        ¡Hola! Mi nombre es Lucas. Soy un desarrollador de Argentina,
+          provincia de Mendoza. Tengo experiencia en Front End  y Back End . Tengo muchas ganas 
+          aprender y trabajar  en esta industria IT, y estoy ansioso
+          de crecer como programador.
         </p>
         <div>
           {/* <img   className='icon'  src= { require('../imag/instagram.svg').default }  />
