@@ -141,9 +141,9 @@
 @media screen and (max-width: 550px) {
   .parttwo {
     margin-left: 0rem;
-
+    top:100%;
     width: 100%;
-  }
+    overflow: auto;  }
 }
 .parttwo > h2 {
   color: rgb(100, 99, 99);

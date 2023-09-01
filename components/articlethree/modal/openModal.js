@@ -38,13 +38,16 @@ export default function OpenModal({
           <div className={styles.parttwo}>
             <h2> {title}</h2>
             <p> {description}</p>
+
             <div className={styles.divText}>
-              {" "}
+              
+            { title !== "Recetas" && 
               <Link href={deploy}>
                 <a className={styles.enlace} target="_blank">
                   Link Deploy
                 </a>
               </Link>
+}
             </div>
 
             <div className={styles.divText}>
