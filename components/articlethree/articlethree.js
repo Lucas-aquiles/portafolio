@@ -54,7 +54,7 @@ export default function ArticleThree() {
       deploy: "https://donation-app-one.vercel.app/",
       title: "App Donations",
       description:
-        "Aplicacion Web que permite mostrar a los usuarios las ONG. Ek cliente se desarrolla en React js y  los estilos con: Styled-Component. Y la Api se desarrolla con Firebase, que permite tanto Autenticar a los usuarios en persona o ONG; y guardar en su base de datos NoSQL la información",
+        "Aplicacion Web que permite mostrar a los usuarios las ONG. El cliente se desarrolla en React js y  los estilos con: Styled-Component. Y la Api se desarrolla con Firebase, que permite tanto Autenticar a los usuarios en persona o ONG; y guardar en su base de datos NoSQL la información",
       addres: screenThree,
     },
     {
@@ -116,6 +116,8 @@ export default function ArticleThree() {
           // height={1000} // Desired size with correct aspect ratio
           // width={1000} // Desired size with correct aspect ratio
           alt="Your Name"
+          sizes="100vw"
+
         />
       </div>
     </div>

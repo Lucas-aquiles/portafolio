@@ -23,6 +23,7 @@ export default function ArticleTwo() {
           // height={1000} // Desired size with correct aspect ratio
           // width={1000} // Desired size with correct aspect ratio 
           alt="Your Name"
+          sizes="100vw"
         />
       </div>
       <div className={styles.text}>
@@ -100,8 +101,8 @@ export default function ArticleTwo() {
               width="50"
               height="50"
             />
-            <h4>Redux:</h4>
-            <h4 className={styles.textH4}>Thunk/Toolkit</h4>
+            <h4>Redux</h4>
+            {/* <h4 className={styles.textH4}>Thunk/Toolkit</h4> */}
           </div>
 
           <div className={styles.divIcons}>

@@ -5,9 +5,9 @@
   flex-direction: row;
   border-radius: 7% 93% 5% 95% / 87% 11% 89% 13%;
   background-color: beige;
-  margin: 50px 50px;
   align-items: center;
   padding: 2rem;
+  margin: 2rem;
   margin-bottom:-2rem;
 }
 /* mobile */

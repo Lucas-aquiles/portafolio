@@ -32,8 +32,8 @@ export default function OpenModal({
             // width={1000} // Desired size with correct aspect ratio
             alt="Your Name"
             width={600}
-            height={450}
-            objectFit="fill"
+            height={400}
+            objectFit="contain"
           />
           <div className={styles.parttwo}>
             <h2> {title}</h2>
