@@ -35,7 +35,7 @@ export default function ArticleThree() {
   const data = [
     {
       git: "https://github.com/Lucas-aquiles/Proyect_App_Countries",
-      deploy: "https://countries-app-lucas-aquiles.vercel.app/home",
+      deploy: "https://countries-app-lucas-aquiles.vercel.app",
       title: "Countries App ",
       description:
         "Aplicacion web que permite buscar países y sus actividades. Se desarrollo el cliente con React, y se manejaron los estados con Redux. El servidor fue diseñado con Express, el ORM utilizado  es Sequelize y por ultimo la base de dato es Postgressql. ",
