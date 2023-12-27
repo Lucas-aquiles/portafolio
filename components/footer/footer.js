@@ -39,7 +39,7 @@ export default function Footer() {
           </a>
               </Link>
 
-              <Link href="https://twitter.com/Manuel_Lu1">
+              {/* <Link href="https://twitter.com/Manuel_Lu1">
                 <a target="_blank">
           <div   className={styles.childrenDiv}>
             <Image
@@ -51,7 +51,7 @@ export default function Footer() {
             <h4 className={styles.text} >Twitter</h4>
           </div>
           </a>
-              </Link>
+              </Link> */}
 {/* 
               <Link href="/about">
               <a > */}
