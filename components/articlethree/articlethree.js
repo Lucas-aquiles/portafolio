@@ -48,7 +48,6 @@ export default function ArticleThree() {
     //   description: "Aplicación web eccomerce, que permite mostrar y comprar los productos con Paypal. Me encargue de los componetes funcionales de Front End con React y Redux , Redux Persist. Desarrolle algunas rutas y sus controllers en el Back ",
     //   addres: screenTwo,
     // },
-
     {
       git: "https://github.com/Lucas-aquiles/Donation-App",
       deploy: "https://donation-app-one.vercel.app/",
