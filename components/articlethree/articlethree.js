@@ -10,27 +10,11 @@ import screenThree from "../../public/images/donationApp.png";
 import screenFour from "../../public/images/cakeApp.png";
 import screenFive from "../../public/images/expocli.png";
 import React, { useEffect } from "react";
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 
-//https://donation-app-one.vercel.app/
-//https://github.com/Lucas-aquiles/Donation-App
-
-//https://countries-app-lime.vercel.app/
-//https://github.com/Lucas-aquiles/Proyect_App_Countries
-
-//https://tortas-artesanales.vercel.app/
-//https://github.com/Lucas-aquiles/Cakes
-
-//https://client-henryshoes.vercel.app/
-//https://github.com/fedesiri/HenryShoesPF
 
 export default function ArticleThree() {
   const [state, setState] = useState(false);
 
-  // useEffect(() => {
-  //   AOS.init({delay: 500, duration:600});
-  // }, [])
 
   const data = [
     {
