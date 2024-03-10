@@ -41,13 +41,13 @@ export default function ArticleThree() {
         "Aplicacion web que permite buscar países y sus actividades. Se desarrollo el cliente con React, y se manejaron los estados con Redux. El servidor fue diseñado con Express, el ORM utilizado  es Sequelize y por ultimo la base de dato es Postgressql. ",
       addres: screenOne,
     },
-    {
-      git: "https://github.com/fedesiri/HenryShoesPF",
-      deploy: "https://client-henryshoes.vercel.app/",
-      title: "Eccomerce Shoes",
-      description: "Aplicación web eccomerce, que permite mostrar y comprar los productos con Paypal. Me encargue de los componetes funcionales de Front End con React y Redux , Redux Persist. Desarrolle algunas rutas y sus controllers en el Back ",
-      addres: screenTwo,
-    },
+    // {
+    //   git: "https://github.com/fedesiri/HenryShoesPF",
+    //   deploy: "https://client-henryshoes.vercel.app/",
+    //   title: "Eccomerce Shoes",
+    //   description: "Aplicación web eccomerce, que permite mostrar y comprar los productos con Paypal. Me encargue de los componetes funcionales de Front End con React y Redux , Redux Persist. Desarrolle algunas rutas y sus controllers en el Back ",
+    //   addres: screenTwo,
+    // },
 
     {
       git: "https://github.com/Lucas-aquiles/Donation-App",
